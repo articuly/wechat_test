@@ -64,7 +64,7 @@ def create_menu(request):
                     {
                         "type": "view",
                         "name": "搜索",
-                        "url": "http://www.soso.com/"
+                        "url": "http://www.baidu.com/"
                     },
                     {
                         "type": "click",
