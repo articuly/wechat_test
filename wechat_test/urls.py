@@ -18,5 +18,6 @@ from django.urls import path, re_path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path('^authwx/?', include('authwx.urls'), namespace='authwx'),
+    re_path('^authwx/?', include('authwx.urls', namespace='authwx')),
+    path('wxmessage/', include('wxmessage.urls', namespace='wxmessage')),
 ]
